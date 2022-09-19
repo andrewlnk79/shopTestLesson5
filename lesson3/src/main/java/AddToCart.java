@@ -17,6 +17,9 @@ public class AddToCart {
         driver.get("http://automationpractice.com");
         WebElement element1= driver.findElement(By.xpath("//*[@id=\"homefeatured\"]/li[1]/div/div[1]/div/a[1]/img"));
 element1.click();
+WebElement addToCart= driver.findElement(By.xpath("//*[@id=\"add_to_cart\"]/button/span"));
+addToCart.click();
+
 
 
 
