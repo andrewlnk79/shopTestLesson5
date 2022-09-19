@@ -1,5 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -13,6 +15,8 @@ public class DiscountBanner {
 
         WebDriver driver= new ChromeDriver(options);
         driver.get("http://automationpractice.com");
+        WebElement baner1 = driver.findElement(By.xpath("//*[@id=\"htmlcontent_top\"]/ul/li[1]/a/img"));
+        baner1.click();
 
     }
 
