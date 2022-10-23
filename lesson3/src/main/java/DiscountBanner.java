@@ -15,7 +15,7 @@ public class DiscountBanner {
 
         WebDriver driver= new ChromeDriver(options);
         driver.get("http://automationpractice.com");
-        WebElement baner1 = driver.findElement(By.xpath("//*[@id=\"htmlcontent_top\"]/ul/li[1]/a/img"));
+        WebElement baner1 = driver.findElement(By.cssSelector("#htmlcontent_top > ul > li.htmlcontent-item-1.col-xs-4 > a > img"));
         baner1.click();
 
     }

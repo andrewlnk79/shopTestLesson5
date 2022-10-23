@@ -18,7 +18,8 @@ public class Search {
         WebElement searchFild = driver.findElement(By.xpath("//*[@id=\"search_query_top\"]"));
         searchFild.click();
         searchFild.sendKeys("top");
-        searchFild.click();
+        WebElement searchButton = driver.findElement(By.xpath("//*[@id=\"searchbox\"]/button"));
+        searchButton.click();
 
 
 
