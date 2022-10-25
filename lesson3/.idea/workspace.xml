@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85f7cb04-1ea1-4d8f-b0e2-c798d40e3adf" name="Changes" comment="commit-2">
+    <list default="true" id="85f7cb04-1ea1-4d8f-b0e2-c798d40e3adf" name="Changes" comment="add searchCheck test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson5/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/ShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson5/ShopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/ShopTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +55,8 @@
       <recent name="lesson5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.categoryMenuWomen">
-    <configuration name="DiscountBanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiscountBanner" />
-      <module name="lesson3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Search" />
-      <module name="lesson3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopTest.addToCart (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShopTest">
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson3" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +66,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="lesson5" />
       <option name="MAIN_CLASS_NAME" value="lesson5.ShopTest" />
-      <option name="METHOD_NAME" value="addToCart" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.checkSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.ShopTest" />
+      <option name="METHOD_NAME" value="checkSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.discountBanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.ShopTest" />
+      <option name="METHOD_NAME" value="discountBanner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.ShopTest.checkSearch" />
+        <item itemvalue="JUnit.ShopTest.discountBanner" />
         <item itemvalue="JUnit.ShopTest.categoryMenuWomen" />
         <item itemvalue="JUnit.ShopTest.categoryMenu" />
-        <item itemvalue="JUnit.ShopTest.addToCart (1)" />
-        <item itemvalue="Application.Search" />
-        <item itemvalue="Application.DiscountBanner" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +168,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666504992005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add categorymenu test">
+      <created>1666522961898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666522961898</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add categorymenu test">
+      <created>1666523087695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666523087695</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add discountBanner test">
+      <created>1666684552119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666684552120</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add searchCheck test">
+      <created>1666705494257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666705494257</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +213,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit-1" />
     <MESSAGE value="commit-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit-2" />
+    <MESSAGE value="add categorymenu test" />
+    <MESSAGE value="add discountBanner test" />
+    <MESSAGE value="add searchCheck test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add searchCheck test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
